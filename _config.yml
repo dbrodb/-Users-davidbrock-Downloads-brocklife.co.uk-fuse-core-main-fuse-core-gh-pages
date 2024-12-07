@@ -28,7 +28,7 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://brocklife.co.uk
+url: 
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
@@ -100,7 +100,6 @@ links:
       show: true
       href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
       icon: fas fa-key
-
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
