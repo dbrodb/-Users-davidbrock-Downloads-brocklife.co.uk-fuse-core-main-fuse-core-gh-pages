@@ -48,7 +48,7 @@ baseurl: '/https://github.com/dbrodb/www.brocklife.co.uk/blob/main/images/backgr
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "file:///Users/davidbrock/Desktop/fuse-core-gh-pages/images/avatar.svg"
+avatar: "/https://github.com/dbrodb/www.brocklife.co.uk/blob/main/images/avatar.svg"
 #avatar: "images/jonathan_doe.jpg"
 #avatar:
 
