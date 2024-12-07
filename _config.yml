@@ -12,12 +12,12 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: Brock Life
 #subtitle:
-subtitle: Frontend Developer
+subtitle: When the world keeps raining down on you like a bag of exploding dildos...
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Fuse Core
+title: Brockbase
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -28,7 +28,7 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://tsjensen.github.io/fuse-core/
+url: https://brocklife.co.uk
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
