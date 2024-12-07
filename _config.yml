@@ -14,10 +14,10 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Brock Life
 #subtitle:
-subtitle: When the world keeps raining down on you like a bag of exploding dildos...
+subtitle: When the world keeps raining down on you, like a big bag of exploding dildos...
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Brockbase
+title:
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -105,7 +105,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    Ten4rubberducky.
 
 #EOF
