@@ -1,5 +1,5 @@
-# Fuse Core Theme for Jekyll - Settings
-# https://github.com/tsjensen/fuse-core
+
+
 
 markdown: kramdown
 permalink: pretty
@@ -17,7 +17,7 @@ name: Brock Life
 subtitle: When the world keeps raining down on you, like a big bag of exploding dildos...
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title:
+title: Brock Life
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -28,13 +28,13 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: 
+url: https://brocklife.co.uk
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: "../images/portBackground.jpg"
+baseurl: "/brock-life"
 
 # In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
 # Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
@@ -47,7 +47,7 @@ baseurl: "../images/portBackground.jpg"
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "/https://github.com/dbrodb/www.brocklife.co.uk/blob/main/images/avatar.svg"
+avatar: "/images/avatar.svg"
 #avatar: "images/jonathan_doe.jpg"
 #avatar:
 
@@ -83,7 +83,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/
       icon: fab fa-github
   - reddit:
       name: Reddit
@@ -92,7 +92,7 @@ links:
       icon: fab fa-reddit
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
