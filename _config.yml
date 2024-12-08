@@ -1,5 +1,113 @@
+# Fuse Core Theme for Jekyll - Settings
+# https://github.com/tsjensen/fuse-core
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.txt']
+sass:
+    style: expanded
 
 
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: Brock Life
+#subtitle:
+subtitle: When the world keeps raining down on you, like a big bag of exploding dildos...
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title:
+
+# Information for web crawlers / Google, all of them optional
+# 'description' and 'keywords' simply set the corresponding meta tags,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: One line of text describing the content of the page in less than 140 characters.
+    keywords: foo, bar, baz
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://brocklife.co.uk
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+#baseurl: ''
+baseurl: '/Brock Life'
+
+
+# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
+# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
+
+
+
+
+
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+avatar: "file:///Users/davidbrock/Desktop/fuse-core-gh-pages/images/avatar.svg"
+#avatar: "images/jonathan_doe.jpg"
+#avatar:
+
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - linkedin:
+      name: LinkedIn
+      show: false
+      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      icon: fab fa-linkedin
+  - twitter:
+      name: Twitter
+      show: true
+      href: https://twitter.com/YOUR_TWITTER_USERNAME
+      icon: fab fa-twitter
+  - facebook:
+      name: Facebook
+      show: false
+      href: https://facebook.com/YOUR_FB_USERNAME
+      icon: fab fa-facebook
+  - instagram:
+      name: Instagram
+      show: false
+      href: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+      icon: fab fa-instagram
+  - soundcloud:
+      name: Soundcloud
+      show: false
+      href: https://soundcloud.com/YOUR_SOUNDCLOUD_USERNAME
+      icon: fab fa-soundcloud
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/tsjensen
+      icon: fab fa-github
+  - reddit:
+      name: Reddit
+      show: false
+      href: https://reddit.com/user/YOUR_REDDIT_USERNAME
+      icon: fab fa-reddit
+      name: Email
+      show: true
+      href: mailto:jonathan.doe@host.domain
+      icon: fas fa-envelope
+  - publickey:
+      name: PGP Key
+      show: true
+      href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
+      icon: fas fa-key
+
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+#extra_html:
+extra_html: >
+    Ten4rubberducky.
+
+#EOF
 
 markdown: kramdown
 permalink: pretty
