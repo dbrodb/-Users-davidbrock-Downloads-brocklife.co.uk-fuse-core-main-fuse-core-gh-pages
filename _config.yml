@@ -198,7 +198,7 @@ links:
       show: false
       href: https://reddit.com/user/YOUR_REDDIT_USERNAME
       icon: fab fa-reddit
-      name: Email
+      name: Email:
       show: true
       href: mailto:
       icon: fas fa-envelope
