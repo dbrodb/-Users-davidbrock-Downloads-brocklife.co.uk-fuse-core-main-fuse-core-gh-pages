@@ -1,6 +1,5 @@
 # Fuse Core Theme for Jekyll - Settings
-# https://github.com/dbrodb/www.brocklife.co.uk
-
+# https://github.com/dbrodb/www.brocklife.co.uk.git
 markdown: kramdown
 permalink: pretty
 exclude: ['README.*', 'LICENSE.txt']
