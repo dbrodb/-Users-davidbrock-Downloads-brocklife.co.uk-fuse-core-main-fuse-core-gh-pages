@@ -69,7 +69,7 @@ avatar: "https://avatars0.githubusercontent.com/u/8897534"
 links:
   - linkedin:
       name: LinkedIn
-      show: false
+      show: true
       href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
       icon: fab fa-linkedin
   - twitter:
@@ -79,7 +79,7 @@ links:
       icon: fab fa-twitter
   - facebook:
       name: Facebook
-      show: false
+      show: true
       href: https://facebook.com/YOUR_FB_USERNAME
       icon: fab fa-facebook
   - instagram:
@@ -89,17 +89,17 @@ links:
       icon: fab fa-instagram
   - soundcloud:
       name: Soundcloud
-      show: false
+      show: true
       href: https://soundcloud.com/YOUR_SOUNDCLOUD_USERNAME
       icon: fab fa-soundcloud
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/tbc
       icon: fab fa-github
   - reddit:
       name: Reddit
-      show: false
+      show: true
       href: https://reddit.com/user/YOUR_REDDIT_USERNAME
       icon: fab fa-reddit
   - email:
